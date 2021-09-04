@@ -1,0 +1,1 @@
+Hello, this is my first coding project! I will be building a "google homepage" in order to gain a better understanding of HTML and CSS.
