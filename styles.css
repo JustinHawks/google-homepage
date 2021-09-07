@@ -16,19 +16,31 @@ a:hover {
     text-decoration-thickness: auto;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
 .apps-icon {
     border-radius: 50%;
 }
 
 .profile-photo {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
+
 
 .google-logo {
     height: 92;
     width: 272px;
+    align: center;
+    
 }
 
 #google-search-textbox {
@@ -36,4 +48,8 @@ a:hover {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+footer {
+    background-color: #f2f2f2
+    
 }
