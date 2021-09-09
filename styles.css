@@ -1,9 +1,13 @@
 body {
     background-color: #ffffff;
     font-family: arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-color: #222;
 }
+.top-nav {
+    padding: 15px 5px 15px 5px
+}
+    
 a {
     text-decoration: none;
     color:#222
@@ -35,12 +39,14 @@ li {
     border-radius: 50%;
 }
 
-
+#google-logo {
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    
+}
 .google-logo {
     height: 92;
     width: 272px;
-    align: center;
-    
 }
 
 #google-search-textbox {
@@ -50,6 +56,8 @@ li {
     border-bottom-right-radius: 20px;
 }
 footer {
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
+    bottom: 0;
+    position: absolute;
     
 }
